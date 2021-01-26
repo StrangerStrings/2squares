@@ -20,12 +20,12 @@ body {
     position: absolute;
     height: 15vw;
     width: 15vw;
-    left: 50%;
-    top: 50%;
-    border-radius: 50%;
+    left: 42.5vw;
+    top: 40%;
+    /* border-radius: 50%; */
     /* ^circles mode^ */
-    transform: translate(-50%, -50%);
     transition-property: transform;
+    transition-timing-function: ease;
 }
 
 .blue {
