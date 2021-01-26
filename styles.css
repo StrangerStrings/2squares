@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    cursor:crosshair;
+    background: black;
+}
+
+.square {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    /* ^circles mode^ */
+    transform: translate(-50%, -50%);
+    transition-property: transform;
+}
+
+.blue {
+    background: lightblue;
+}
+
+.red {
+    background: lightcoral;
+}
+
+.green {
+    background:palegreen
+}
+
+.yellow {
+    background:papayawhip
+}
